@@ -10,10 +10,11 @@ using System.Windows.Forms;
 
 namespace SWGBHLauncher
 {
-    public partial class Form1 : Form
+    public partial class AlphaForm : Form
     {
-        public Form1()
+        public AlphaForm()
         {
+            StartPosition = FormStartPosition.CenterScreen;
             InitializeComponent();
         }
     }
